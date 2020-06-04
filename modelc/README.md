@@ -1,11 +1,11 @@
 # ethiclab/modelc
 
-    docker build -t ethiclab/modelc:1.3 .
+    docker build -t ethiclab/modelc:1.4 .
 
 # example
 
-    docker run ethiclab/modelc:1.3
+    echo '<model></model>' | docker run -i --rm ethiclab/modelc:1.4 /tmp/modelc/template/execute.sh
 
 # hash
 
-    1.3: digest: sha256:91917f03599df4cd4968853945d7cc0dc9ebb8df838e67345730d53303f51b6a size: 3054
+    1.4: digest: sha256:6216dd66711e2005bc6278956ad8619c3f5775a5ad33021a9605357ff2651821 size: 2636
